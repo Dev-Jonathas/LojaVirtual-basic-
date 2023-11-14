@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+header {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    background-image: url("Design sem nome.png");
+
+}
+
+header img {
+
+    max-width: 150px;
+    /* Ajuste o tamanho da imagem conforme necessário */
+    margin-left: center;
+    /* Adicione margem à direita para espaçamento */
+
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+numeros-disponiveis,
+finalizar-compra {
+    margin-bottom: 20px;
+}
+
+numeros-disponiveis h2,
+finalizar-compra h2 {
+    color: #333;
+}
+
+numeros-disponiveis ul {
+    list-style: none;
+    padding: 0;
+}
+
+numeros-disponiveis li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+finalizar-compra select {
+    padding: 8px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.produto {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.produto img {
+    display: block;
+    /* Isso garante que a margem funcione corretamente */
+    margin: 0 auto;
+    /* Centralize horizontalmente */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4e4c4c;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
