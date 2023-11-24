@@ -1,1 +1,0 @@
-# LojaVirtual-basic-
